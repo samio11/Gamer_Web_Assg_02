@@ -137,11 +137,11 @@
     /* background-color: burlywood; */
 }
 
-.banner_para > p{
+.banner_para>p {
     margin-bottom: 15px;
 }
 
-.main_btn{
+.main_btn {
     width: 130px;
     height: 50px;
     font-size: 20px;
@@ -153,10 +153,102 @@
 
 }
 
-.head_banner_right > img{
+.head_banner_right>img {
     width: 100%;
     height: 100%;
 }
+
+
+.online_game_container {
+    /* margin-top: 100px; */
+    width: 95%;
+    height: 70vh;
+    /* background-color: aqua; */
+    margin: 0px auto;
+    margin-top: 100px;
+}
+
+.online_game_container>h3 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.online_game_container>p {
+    text-align: center;
+    margin-top: 15px;
+    color: #534C64;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.online_card{
+    width: 100%;
+    height: 100%;
+    /* background-color: wheat; */
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.box1{
+    width: 100%;
+    height: 100%;
+    /* background-color: bisque; */
+}
+
+.inner_box1{
+    width: 100%;
+    height: 85%;
+   background-image: url('../images/Rectangle\ 4.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.inner_box2{
+    background-image: url('../images/Rectangle\ 5.png');
+}
+.inner_box3{
+    background-image: url('../images/Rectangle\ 6.png');
+}
+.inner_box4{
+    background-image: url('../images/Rectangle\ 7.png');
+}
+
+.test{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    color: #E7E6E9;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 0.7; */
+}
+
+.hide{
+    visibility: hidden;
+}
+
+.inner_box1 > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.inner_box1:hover .hide{
+    visibility: visible;
+}
+
+.inner_box1:hover{
+    opacity: 0.4;
+}
+
+
 
 
 
@@ -176,19 +268,33 @@
         margin-top: 50px;
         margin-bottom: 30px;
     }
-    .head_banner_container{
+
+    .head_banner_container {
         flex-direction: column-reverse;
         height: auto;
     }
 
-    .head_banner_left{
+    .head_banner_left {
         width: 100%;
         height: 47%;
     }
 
-    .head_banner_right{
+    .head_banner_right {
         width: 100%;
         height: 47%;
+    }
+
+    .online_game_container{
+        width: 97%;
+        height: 450vh;
+        margin: 0px auto;
+    }
+    .online_card{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .inner_box1:hover .hide{
+        visibility: visible;
     }
 
 }
