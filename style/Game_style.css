@@ -353,6 +353,98 @@ margin-bottom: 15px;
 }
 
 
+/* Footer Section */
+.last{
+    width: 100%;
+    height: 60vh;
+    background-color:#0B0223;
+    text-align: center;
+ color: white;
+ /* margin-bottom: 50px; */
+}
+.last_head{
+  /* margin-top: 50px; */
+  /* height: 60px;
+  width: 100px; */
+  padding-top: 50px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #57117f; */
+}
+
+.last_head > h3{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.last_grid{
+    width: 80%;
+    height: auto;
+    /* background-color: aqua; */
+    margin: 0px auto;
+    margin-top: 30px;
+    text-align: center;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(6,1fr);
+    /* margin-top: 5px; */
+}
+
+.last_grid > h6{
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.last_grid_pic{
+    width: 50%;
+    height: auto;
+    /* background-color: bisque; */
+    margin: 0px auto;
+    margin-top: 50px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(6,1fr);
+}
+
+.last_grid_pic > button{
+    width: 100%;
+    height: 80%;
+    background-color: transparent;
+    border: 0px;
+    border-radius: 20px;
+   
+}
+
+.last_grid_pic > button > img{
+    width: 50%;
+    height: auto;
+    /* background-color: white; */
+    /* border-radius: 50%; */
+}
+
+
+.last_para{
+    width: 70%;
+    height: auto;
+    /* background-color:#534C64; */
+    margin: 0px auto;
+    margin-top: 50px;
+    display: grid;
+    grid-gap: 15px;
+    text-align: center;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.mp{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
 
 @media screen and (max-width : 576px) {
     .header_nav_main_container {
@@ -441,7 +533,24 @@ margin-bottom: 15px;
         grid-gap: 20px;
         grid-template-columns: repeat(2,auto);
     }
-   
 
+    .last{
+        height: 140vh;
+    }
+    .last_grid > h6{
+        font-size: 13px;
+    }
+
+    .last_grid{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .last_grid_pic{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .last_para{
+        grid-template-columns: repeat(2,1fr);
+    }
 
 }
