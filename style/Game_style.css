@@ -456,6 +456,15 @@ margin-bottom: 15px;
         flex-direction: column;
     }
 
+    .b12{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .main_btn{
+        display: inline-block;
+        margin-right: 30px;
+    }
     .nav_right {
         flex-direction: column;
         margin-bottom: 50px;
