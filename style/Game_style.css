@@ -99,6 +99,9 @@
     width: 48%;
     height: 100%;
     /* background-color: blanchedalmond; */
+    background-image: url('../images/Group\ 14.png');
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
